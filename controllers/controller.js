@@ -1,5 +1,5 @@
 let fs = require('fs');
-let articleData = require('../data/articles.json');n
+let articleData = require('../data/articles.json');
 
 const controller = {
     homePage : (req, res) => {
