@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "oblog",
+  "description": "![Aperçu](integration/apercu.png \"Aperçu\")",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}

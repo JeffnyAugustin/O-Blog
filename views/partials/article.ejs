@@ -1,0 +1,21 @@
+<%- include('../include/header') %>
+
+    <main class="content pure-u-1 pure-u-md-3-4 pure-u-xl-5-6">
+        <div class="pure-g">
+            <article class="post pure-u-1">
+                <header>
+                    <h1><%- articles.title%></h1>
+                    <div class="post-meta">
+                        Par <a href="#"><%- articles.author%></a>
+                        dans la catégorie <a href="#"><%- articles.category%></a>
+                    </div>
+                </header>
+                <figure class="post-picture">
+                    <img class="pure-img" src="/assets/images/<%- articles.img%>" alt=<%- articles.img_alt%>>
+                    <figcaption class="post-picture-caption"><%- articles.sub_title%></figcaption>
+                </figure>
+                <div class="post-content">
+                    <p><%- articles.text%></p>
+                </div>
+        
+<%- include('../include/footer') %>
