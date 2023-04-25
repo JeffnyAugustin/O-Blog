@@ -21,7 +21,7 @@ const controller = {
         }else {
     
         // dans data on veut aller chercher data
-        const articles = articleData.find(data => data.id === id)
+        const articles = articleData.find(articleData => articleData.id === id)
         // Affichage page article
         res.render('partials/article', {articles})
         console.log(articles);
